@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-nav,
+.form-group {
+	height: 80px;
+	padding-top: 20px;
+}
+
+.form-control {
+	margin-top: 3px;
+}
+
+
+.navbar-brand img {
+	width: 60px;
+	height: 60px;
+	border-radius: 30%;
+
+}
+
+.navbar-nav a {
+	color: rgba(8, 159, 152, 1.00) !important;
+	font-size: 18px;
+}
+
+.nav {
+	margin-left: 100px;
+}
+
+.places {
+	display: flex;
+}
+
+.banner {
+	height: 600px;
+	width: 70%;
+}
+
+.banner img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.fav-places {
+	width: 30%;
+	color: darkorange;
+	margin-left: 15px;
+}
+
+hr {
+	color: rgba(8, 159, 152, 1.00);
+	size: 5px;
+	margin-top: -10px;
+}
+
+.item {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.picture {
+	width: 160px;
+	/* he: 160px; */
+}
+
+.picture img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.name {
+	margin-left: 5px;
+}
+
+h1 {
+	color: rgba(8, 159, 152, 1.00);
+	text-align: center;
+	margin: 15px;
+}
+
+.fav-hotels {
+	display: flex;
+	justify-content: center;
+}
+
+.hotel {
+	margin-right: 30px;
+	position: relative;
+}
+
+.hotel .hotel-picture {
+	width: 450px;
+	height: 450px;
+}
+
+.hotel .hotel-picture img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.hotel h3 {
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+	color: rgba(8, 159, 152, 1.00);
+	text-align: center;
+}
+
+th {
+	color: #098B0B;
+	text-align: center;
+}
+
+td {
+	color: darkorange;
+	text-align: center;
+}
+
+
+.footer {
+	background-color: teal;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.nav {
+		margin-left: 0px !important;
+	}
+
+	.navbar-nav {
+		height: auto;
+	}
+
+	.navbar-toggle {
+		background-color: #098B0B;
+	}
+
+	.icon-bar {
+		border: #FFFFFF 1px solid;
+	}
+
+	.places {
+		display: block;
+		margin-top: 15px;
+	}
+
+	.places .banner{
+		width: 100%;
+		height: 300px;
+	}
+
+	.places .fav-places{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.fav-hotels {
+		display: block;
+	}
+
+	.hotel {
+		margin-right: 0px;
+	}
+
+	.hotel .hotel-picture {
+		width: 100%;
+		margin-top: 10px;
+	}
+}
